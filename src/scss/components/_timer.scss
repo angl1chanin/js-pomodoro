@@ -1,0 +1,64 @@
+.timer {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        column-gap: 4rem;
+    }
+
+    &__display {
+        display: flex;
+        align-items: center;
+
+        li {
+            font-size: 6rem;
+            font-weight: 400;
+            color: #fff;
+            list-style-type: none;
+
+            &:not(:last-child)::after {
+                content: ':';
+                display: inline-block;
+                color: #fff;
+                font-size: inherit;
+                position: relative;
+                margin-right: 0.4rem;
+            }
+        }
+
+        li input {
+            font-family: "Poppins", sans-serif;
+            font-size: 6rem;
+            font-weight: 400;
+            color: #fff;
+            border: none;
+            background-color: transparent;
+            width: 7rem;
+            outline: none;
+        }
+    }
+
+    &__btn {
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        padding: 0.2rem;
+
+        &:hover {
+            path {
+                fill: #fff;
+            }
+        }
+
+        svg {
+            width: 2.5rem;
+            height: 2.5rem;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            path {
+                fill: var(--icon-color);
+            }
+        }
+    }
+}

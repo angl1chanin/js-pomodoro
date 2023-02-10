@@ -1,0 +1,16 @@
+.btn {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border: 0.1rem solid var(--border-color);
+    border-radius: var(--button-border-radius);
+    color: var(--text-dark-color);
+    font-size: 1.8rem;
+    font-weight: 300;
+    transition: color .2s linear, border-color .2s linear;
+
+    &:hover {
+        border-color: #fff;
+        color: #fff;
+        cursor: pointer;
+    }
+}

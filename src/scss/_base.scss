@@ -1,0 +1,15 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    background-color: var(--bg-color);
+}
+
+.container {
+    width: min(100% - 3rem, 120rem);
+    margin-inline: auto;
+}

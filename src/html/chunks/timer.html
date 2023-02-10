@@ -1,0 +1,21 @@
+<div class="timer @@className">
+    <div class="timer__wrapper">
+        <button class="timer__btn btn" data-timer-action="dec">
+            <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#000000" d="M128 544h768a32 32 0 1 0 0-64H128a32 32 0 0 0 0 64z" />
+            </svg>
+        </button>
+
+        <ul class="timer__display">
+            <li><input id="minutes" value="0" minlength="1" maxlength="2"></li>
+            <li><input id="seconds" value="0" minlength="1" maxlength="2"></li>
+        </ul>
+
+        <button class="timer__btn btn" data-timer-action="inc">
+            <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#000000"
+                    d="M480 480V128a32 32 0 0 1 64 0v352h352a32 32 0 1 1 0 64H544v352a32 32 0 1 1-64 0V544H128a32 32 0 0 1 0-64h352z" />
+            </svg>
+        </button>
+    </div>
+</div>

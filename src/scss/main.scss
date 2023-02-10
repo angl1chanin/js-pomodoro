@@ -1,0 +1,14 @@
+// Global SCSS files
+@import './base';
+@import './fonts';
+@import './vars';
+@import './reset';
+@import './mixins';
+
+// Components
+@import 'components/modal';
+@import 'components/timer';
+@import 'components/btn';
+
+// Sections or Pages SCSS-files
+@import './index';
